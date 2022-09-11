@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/structures', function () {
+    return view('structures');
+});
+Route::get('/create-structures', function () {
+    return view('create_structures');
+});
